@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Org.BouncyCastle</RootNamespace>
+    <PackageId>BouncyCastle.Crypto</PackageId>
+    <Description>Bouncy Castle Cryptography API</Description>
+    <Company>The Legion of the Bouncy Castle Inc.</Company>
+    <Product>Bouncy Castle for .NET</Product>
+    <Copyright>Copyright (C) 2000-2018</Copyright>
+    <AssemblyVersion>1.8.2.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="bzip2\" />
+  </ItemGroup>
+
+</Project>
